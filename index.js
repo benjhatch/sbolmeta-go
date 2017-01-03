@@ -6,6 +6,7 @@ module.exports = {
     summarizeSequence: require('./lib/summarizeSequence'),
     summarizeModuleDefinition: require('./lib/summarizeModuleDefinition'),
     summarizeModel: require('./lib/summarizeModel'),
+    summarizeGenericTopLevel: require('./lib/summarizeGenericTopLevel'),
     sequenceOntology: require('./lib/sequence-ontology')
 }
 

@@ -298,18 +298,19 @@ qs@~6.5.1:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-rdf-ext@^0.3.0:
+rdf-ext-sboljs@^0.3.0:
   version "0.3.0"
-  resolved "https://registry.yarnpkg.com/rdf-ext/-/rdf-ext-0.3.0.tgz#954bd7b8d117083c8a2ea9d2a2d2775a0773fe02"
-  integrity sha1-lUvXuNEXCDyKLqnSotJ3Wgdz/gI=
+  resolved "https://registry.yarnpkg.com/rdf-ext-sboljs/-/rdf-ext-sboljs-0.3.0.tgz#705af786fa2cbf5008af8c9036507578f49da389"
+  integrity sha512-Hn6285+IpC0ylY564KfiU43p1WN1zgMuZKCJJb9r4FKYNTmX/5of7kn5FsiwkG9NMEzK9Rqr36fh1St3pg+K+g==
   dependencies:
     es6-promise "^3.0.2"
     rdf-graph-array "^0.3.0"
     rdf-store-inmemory "^0.3.0"
 
-"rdf-ext@git://github.com/rdf-ext/rdf-ext.git#a01be12f62a55182edfffc3c81ff37befcbc85b8":
+rdf-ext@^0.3.0:
   version "0.3.0"
-  resolved "git://github.com/rdf-ext/rdf-ext.git#a01be12f62a55182edfffc3c81ff37befcbc85b8"
+  resolved "https://registry.yarnpkg.com/rdf-ext/-/rdf-ext-0.3.0.tgz#954bd7b8d117083c8a2ea9d2a2d2775a0773fe02"
+  integrity sha1-lUvXuNEXCDyKLqnSotJ3Wgdz/gI=
   dependencies:
     es6-promise "^3.0.2"
     rdf-graph-array "^0.3.0"
@@ -322,18 +323,19 @@ rdf-graph-abstract@^0.3.0:
   dependencies:
     rdf-normalize "^0.3.0"
 
+rdf-graph-array-sboljs@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/rdf-graph-array-sboljs/-/rdf-graph-array-sboljs-0.3.1.tgz#3abc2f05dc5f791a19314ad42fb2533332a0d053"
+  integrity sha512-4drBp/Y71fovsSqJX54IgrVtNZ0ku2RleX3V8NvROa43P4l44E8Ki4TXaqCSLCTlsFm69JqIEyu51VhN6nMqow==
+  dependencies:
+    inherits "^2.0.1"
+    rdf-graph-abstract "^0.3.0"
+
 rdf-graph-array@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/rdf-graph-array/-/rdf-graph-array-0.3.0.tgz#0cc93424ff3b16bf89f3f44795c65328911af0d8"
   integrity sha1-DMk0JP87Fr+J8/RHlcZTKJEa8Ng=
   dependencies:
-    rdf-graph-abstract "^0.3.0"
-
-"rdf-graph-array@git+https://github.com/udp/rdf-graph-array.git":
-  version "0.3.1"
-  resolved "git+https://github.com/udp/rdf-graph-array.git#98b1a0c674ed2b07993d54ab7d2a3b84e661bc3e"
-  dependencies:
-    inherits "^2.0.1"
     rdf-graph-abstract "^0.3.0"
 
 rdf-normalize@^0.3.0:
@@ -429,15 +431,15 @@ safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sboljs@^2.1.9:
-  version "2.1.13"
-  resolved "https://registry.yarnpkg.com/sboljs/-/sboljs-2.1.13.tgz#df38f7339267afefb9e9d8c7297f11ab08ee36c6"
-  integrity sha512-5wd2ft7KTxGZ3ifuGAaF3HBtO5ZPRjQS8Jewmntdlax96VPCECRqDy01WgYAMZVXci59L3h8R13603L4MUnQiw==
+sboljs@^2.2.7:
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/sboljs/-/sboljs-2.2.7.tgz#41ff597dfb3a54e6af9f69f7777500e92878efaf"
+  integrity sha512-wS7tjHty3+pruBK/WVN9aZoHFxuqY7s7+1dULjNuG5R35NxyKNAgveyz36dIQEmZTAjhvzq/XzO/kYZl1MSVvg==
   dependencies:
     extend "^3.0.0"
     json-stringify-safe "https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz"
-    rdf-ext "git://github.com/rdf-ext/rdf-ext.git#a01be12f62a55182edfffc3c81ff37befcbc85b8"
-    rdf-graph-array "git+https://github.com/udp/rdf-graph-array.git"
+    rdf-ext-sboljs "^0.3.0"
+    rdf-graph-array-sboljs "^0.3.1"
     rdf-parser-rdfxml "^0.3.0-rc1"
     request "https://registry.npmjs.org/request/-/request-2.83.0.tgz"
     urijs "https://registry.npmjs.org/urijs/-/urijs-1.18.7.tgz"

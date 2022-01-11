@@ -1,18 +1,18 @@
 {
-  "name": "sbolmeta",
-  "version": "0.3.3",
-  "description": "",
+  "name": "sbolmeta-go",
+  "version": "0.0.1",
+  "description": "Sbolmeta minus the gene ontology for a lightweight package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ICO2S/sbolmeta.git"
+    "url": "https://github.com/benjhatch/sbolmeta-go.git"
   },
-  "author": "",
+  "author": "Benjamin Hatch",
   "license": "BSD-2-Clause",
-    "dependencies": {
-	"sboljs": "^2.2.7"
-    }
+  "dependencies": {
+    "sboljs": "^2.2.7"
+  }
 }

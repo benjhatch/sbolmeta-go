@@ -8,7 +8,6 @@ module.exports = {
     summarizeModel: require('./lib/summarizeModel'),
     summarizeGenericTopLevel: require('./lib/summarizeGenericTopLevel'),
     sequenceOntology: require('./lib/sequence-ontology'),
-    geneOntology: require('./lib/gene-ontology'),
     systemsBiologyOntology: require('./lib/systems-biology-ontology')
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "sbolmeta-go",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sbolmeta minus the gene ontology for a lightweight package",
   "main": "index.js",
   "scripts": {
